@@ -62,7 +62,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>wSm :: Login</title>
+    <title>wSmP :: Login</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="/assets/imgs/favicon.svg" sizes="96x96">
@@ -71,6 +71,9 @@
   </head>
   <body>
     <div class="login-page">
+      <a href="https://github.com/Thecakeisgit/wSmP">
+        <img src="assets/imgs/logo.svg" class="logo-image" alt="logo" />
+      </a>
       <form method="post" action="" class="login-form">
         <?php
           if (isset($emptyField)) {

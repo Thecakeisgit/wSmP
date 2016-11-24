@@ -1,7 +1,7 @@
 /* Whole page style */
-body, html {
+html, body {
   /* Body background */
-  background: #2B2B2B;
+  background: #F6F6F6;
 
   /* No margin/padding */
   margin: 0; padding: 0;
@@ -13,7 +13,7 @@ body, html {
 /* Page menu */
 .menu{
   /* Menu color */
-  background-color: #303030;
+  background-color: #2B2B2B;
 
   /* Ajust menu */
   margin: 0; padding: 0;
