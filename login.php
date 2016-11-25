@@ -62,6 +62,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>wSmP :: Login</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
@@ -71,8 +72,8 @@
   </head>
   <body>
     <div class="login-page">
-      <a href="https://github.com/Thecakeisgit/wSmP">
-        <img src="assets/imgs/logo.svg" class="logo-image" alt="logo" />
+      <a href="https://github.com/Thecakeisgit/wSmP" class="logo">
+        <img src="assets/imgs/logo.svg" alt="logo" />
       </a>
       <form method="post" action="" class="login-form">
         <?php
@@ -92,5 +93,7 @@
         <button class="login-button">Login</button>
       </form>
     </div>
+    <!-- Footer -->
+    <footer>wSmP an Open Source project.</footer>
   </body>
 </html>
