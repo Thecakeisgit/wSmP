@@ -17,7 +17,7 @@ html, body {
 
   /* Ajust menu */
   margin: 0; padding: 0;
-  width: 100%; height: 32px;
+  width: 100%; height: 48px;
   top: 0;
   display: block;
   overflow: hidden;
@@ -30,7 +30,7 @@ html, body {
   list-style-type: none;
 
   /* Text style overrride */
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* Align all on top left or right */
@@ -40,9 +40,13 @@ li .menuRight{float: right;}
 /* Style the buttons */
 li a{
   display: block;
+  height: 100%;
   color: #ffffff;
   text-align: center;
-  padding: 8px 16px;
+
+  line-height: 48px;
+
+  padding: 0 16px;
   text-decoration: none;
 }
 
