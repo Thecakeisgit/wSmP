@@ -23,9 +23,6 @@ html, body {
   overflow: hidden;
   position: fixed;
 
-  /* Prepare underlining menu */
-  padding-bottom: 1px;
-
   /* Remove list style */
   list-style-type: none;
 
@@ -49,9 +46,7 @@ li a{
   padding: 0 16px;
   text-decoration: none;
 }
-
-/* Change the link color to black on hover */
+/* Change the color on hover */
 li a:hover{
   background-color: #111111;
-  box-shadow: 0 1px 0 0 #ffffff; /* Underlining on hover */
 }
