@@ -1,7 +1,10 @@
+/*csslint box-sizing: false*/
+
 /* Whole page style */
 body {
   /* Background */
   background: url("../imgs/login.jpg") no-repeat center fixed;
+  background-size: cover;
 
   /* Position, borders an size */
   position: absolute;

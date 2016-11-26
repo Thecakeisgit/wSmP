@@ -1,0 +1,17 @@
+#- Make rewrites to make the url smoother
+
+Options -MultiViews
+
+RewriteEngine on
+
+# Implicitly redirect url without .php to file with .php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L,QSA]
+
+# Explicitly redirect url with .php to url without .php
+RewriteCond %{THE_REQUEST} /([^.]+)\.php
+RewriteRule ^ /%1 [NC,L,R]
+
+#- Index smoothing
+RewriteRule index / [NC,L,R]
