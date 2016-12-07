@@ -66,14 +66,14 @@
     <title>wSmP :: Login</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="/assets/imgs/favicon.svg" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/assets/imgs/logo-b.svg" sizes="96x96">
 
     <link rel="stylesheet" type="text/css" href="assets/css/login.css">
   </head>
   <body>
     <div class="login-page">
       <a href="https://github.com/Thecakeisgit/wSmP" class="logo">
-        <img src="assets/imgs/logo.svg" alt="logo" />
+        <img src="assets/imgs/logo-w.svg" alt="logo" />
       </a>
       <form method="post" action="" class="login-form">
         <?php
